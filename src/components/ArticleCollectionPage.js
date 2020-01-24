@@ -21,7 +21,7 @@ class ArticleCollectionPage extends React.Component {
 
   fetchPosts() {
     axios
-      .get("http://localhost:3000/api/posts")
+      .get("https://final-project-api-cb.herokuapp.com/api/posts")
       .then(response => {
         const newList = response.data;
 
@@ -36,7 +36,7 @@ class ArticleCollectionPage extends React.Component {
 
   createPost(newArticle) {
     axios
-      .post("http://localhost:3000/api/posts", newArticle)
+      .post("https://final-project-api-cb.herokuapp.com/api/posts", newArticle)
       .then(response => {
           debugger
         this.fetchPosts();
@@ -49,7 +49,7 @@ class ArticleCollectionPage extends React.Component {
   }
 
   handleDeleteArticle(id) {
-    axios.delete(`http://localhost:3000/api/posts/${id}`)
+    axios.delete(`https://final-project-api-cb.herokuapp.com/api/posts/${id}`)
         .then((response) => {
             this.fetchPosts();
         })
