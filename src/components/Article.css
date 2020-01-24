@@ -1,0 +1,9 @@
+.article-container {
+  border: 1px solid black;
+  box-shadow: 2px 4px #888888;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+

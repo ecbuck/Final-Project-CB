@@ -1,0 +1,153 @@
+.App {
+  background-color: white;
+  text-size-adjust: center;
+
+}
+h2{
+  color: red;
+  text-transform: uppercase;
+
+}
+.container-fluid{
+  width: 100%
+}
+.article-list-container{
+  border-block-width: 75px;
+
+}
+
+.logo {
+  width: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.col-sm-3 sidenav{
+  height: 100%;
+  
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+/* .row.content {height: 1500px} */
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    top: 0;
+    background-color: lightgrey;
+    overflow: x;
+    display: 50px;
+    padding-top: 20px;
+
+}
+
+
+
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+h2{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.box{
+  align-content: auto;
+  width: auto;
+  height: auto;
+  border-color: blueviolet;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+.search{
+  vertical-align: middle;
+  pointer-events: all;
+}
+.import-group{
+  color: green;
+}
+.model-container{
+  display: flex;
+  justify-content: right;
+  background-color: lightpink;
+  width: 100px;
+
+}
+
+.col-sm-3 sidenav{
+  text-align: right;
+  height: 100%;
+  text-transform: lowercase;
+  background-color: lightyellow;
+
+}
+.message-area{
+  background-color: white;
+  
+}
+.text-area{
+  background-color: whitesmoke;
+}
+.submit-button{
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+  
+}
+.add-article {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
